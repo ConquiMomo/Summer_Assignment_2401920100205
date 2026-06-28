@@ -1,0 +1,13 @@
+public class Outer {
+
+    public void display() {
+        System.out.println("Display method of Outer class");
+    }
+
+    public class Inner {
+
+        public void display() {
+            System.out.println("Display method of Inner class");
+        }
+    }
+}
